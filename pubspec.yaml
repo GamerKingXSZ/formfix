@@ -1,0 +1,36 @@
+name: formfix
+description: Prepare documents for online forms, fully offline.
+publish_to: 'none'
+version: 0.5.0+5
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.6.2
+  shared_preferences: ^2.3.3
+  # Step 2
+  image: ^4.5.4          # pure-Dart decode/resize/JPEG encode (runs in an isolate)
+  file_picker: ^8.3.7    # system picker, no storage permission needed for images
+  share_plus: ^10.1.4    # share sheet (WhatsApp, email, ...)
+  path_provider: ^2.1.5  # temp dir for files to share
+  # Step 3
+  cunning_document_scanner: ^2.3.0  # platform scanner: edge detection, crop, perspective, multi-page
+  pdfrx: ">=2.2.0 <3.0.0"             # PDFium: merge/split/reorder/rotate WITHOUT rasterizing, render, text detection
+  # Step 4
+  google_mlkit_face_detection: ^0.11.0  # on-device face detection (no network)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
