@@ -1,0 +1,179 @@
+{
+  "@@locale": "en",
+  "appName": "FormFix",
+  "tagline": "Fix your documents for any online form",
+  "privacyBadge": "Your documents never leave your phone",
+  "toolScan": "Scan",
+  "toolCompress": "Compress",
+  "toolPhoto": "ID Photo",
+  "toolPdf": "PDF Tools",
+  "presetsTitle": "Quick presets",
+  "presetCss": "CSS Form",
+  "presetUni": "University Admission",
+  "presetJob": "Job Application",
+  "presetRule": "{format} • up to {size}",
+  "@presetRule": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "onb1Title": "Scan any document",
+  "onb1Body": "Take a photo. We straighten and clean it.",
+  "onb2Title": "Hit the exact size",
+  "onb2Body": "Choose 100 KB, 200 KB or 1 MB. We match it.",
+  "onb3Title": "Private by design",
+  "onb3Body": "Everything works offline. Nothing is uploaded.",
+  "next": "Next",
+  "skip": "Skip",
+  "getStarted": "Get started",
+  "settings": "Settings",
+  "language": "Language",
+  "languageEnglish": "English",
+  "languageUrdu": "اردو",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "retry": "Try again",
+  "errPermissionDenied": "Permission needed. Please allow access in Settings.",
+  "errLowStorage": "Your phone is almost full. Free some space and try again.",
+  "errFileTooLarge": "This file is too large for your phone to handle. Try a smaller file.",
+  "errCorrupted": "This file looks damaged and can't be opened.",
+  "errNoFace": "We couldn't find a face. Use a clear, front-facing photo.",
+  "errBlurry": "This photo is blurry. Please retake it.",
+  "errInterrupted": "Processing was interrupted. Please try again.",
+  "errUnknown": "Something went wrong. Please try again.",
+  "pickPhoto": "Choose photo",
+  "chooseAnother": "Choose another photo",
+  "targetSize": "Target size",
+  "customSize": "Custom",
+  "customSizeHint": "Size in KB",
+  "before": "Before",
+  "after": "After",
+  "working": "Making it smaller…",
+  "statusReached": "Done! Your file is under {target}.",
+  "@statusReached": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "statusAlready": "Already under {target}. We left it as it is.",
+  "@statusAlready": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "statusMissed": "We can't reach {target} without ruining the photo. Choose a larger size.",
+  "@statusMissed": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "qualityLabel": "Quality {q}%",
+  "@qualityLabel": {
+    "placeholders": {
+      "q": {
+        "type": "int"
+      }
+    }
+  },
+  "save": "Save",
+  "share": "Share",
+  "saved": "Saved",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "pdfOrganize": "Merge, split, reorder",
+  "imagesToPdf": "Images to PDF",
+  "pdfToImages": "PDF to images",
+  "compressPdf": "Compress PDF",
+  "scanPages": "Scan with camera",
+  "importImages": "Choose images",
+  "addMorePages": "Add more pages",
+  "filterColor": "Color",
+  "filterBw": "Black & white",
+  "noLimit": "No limit",
+  "makePdf": "Make PDF",
+  "pagesCount": "{n, plural, =1{1 page} other{{n} pages}}",
+  "@pagesCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "addPdf": "Add PDF",
+  "extractPages": "Extract pages",
+  "extractHint": "e.g. 1-3, 5",
+  "savePdf": "Save PDF",
+  "pageOf": "{file} · page {n}",
+  "@pageOf": {
+    "placeholders": {
+      "file": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "dragHint": "Hold and drag to reorder",
+  "startOver": "Start over",
+  "pdfReady": "Your PDF is ready.",
+  "textWarningTitle": "This PDF has text",
+  "textWarningBody": "Strong compression turns pages into pictures. Text won't be selectable afterwards.",
+  "continueAction": "Continue",
+  "pdfStatusMissed": "We can't reach {target} without making pages unreadable. Choose a larger size.",
+  "@pdfStatusMissed": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "choosePdf": "Choose PDF",
+  "shareAll": "Share all",
+  "preparing": "Working…",
+  "pageProgress": "Page {done} of {total}",
+  "@pageProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "rotate": "Rotate",
+  "delete": "Delete",
+  "errEncrypted": "This PDF is password-protected. Remove the password first.",
+  "errScannerUnavailable": "Scanner isn't available on this phone. Use Choose images instead.",
+  "errInvalidRange": "Enter pages like 1-3, 5",
+  "photoCreate": "Create photo",
+  "photoZoom": "Zoom",
+  "photoMoveSide": "Move left / right",
+  "photoMoveVert": "Move up / down",
+  "photoAdjustHint": "Keep the whole face inside the frame.",
+  "photoSpecRule": "{size} px • up to {max}",
+  "@photoSpecRule": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  }
+}
